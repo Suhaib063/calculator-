@@ -1,0 +1,22 @@
+#calculator
+a=int(input("enter your first number"))
+b=int(input("enter your second number"))
+operator=input("enter your operator(+,-,*,/)")
+result=0
+if operator=="+":
+    result=a+b
+    print(result)
+elif operator=="-":
+    result=a-b
+    print(result)
+elif operator=="*":
+    result=a*b
+    print(result)
+elif operator=="/":
+    result=a/b
+    print(result)
+else:
+    print("invalid input")
+    
+
+
